@@ -36,8 +36,6 @@ function rememderMyFilms() {
     }
 }
 
-rememderMyFilms();
-
 function detectPersonalLevel() {
     if(personalMovieDB.count < 10){
         console.log('Просмотрено довольно мало фильмов');
@@ -49,8 +47,6 @@ function detectPersonalLevel() {
         console.log('Произошла ошибка');
     }
 }
-
-detectPersonalLevel();
 
 function showMyDB(hidden) {
     if(!hidden){
